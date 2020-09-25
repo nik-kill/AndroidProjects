@@ -1,3 +1,3 @@
-# DiceRoll
-Lets roll the Dice.
+### DiceRoll
+Let's roll the Dice.
 Android Apps using Kotlin.
