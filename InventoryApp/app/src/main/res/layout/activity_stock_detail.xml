@@ -35,7 +35,8 @@
             android:layout_centerHorizontal="true"
             android:text="@string/add_image_button_text" />
 
-        <android.support.design.widget.TextInputLayout
+<!--        <android.support.design.widget.TextInputLayout-->
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_stock_unit_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/stock_unit_name_label"
                 android:singleLine="true" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/subtract_quantity_button"
@@ -61,7 +62,8 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <android.support.design.widget.TextInputLayout
+<!--        <android.support.design.widget.TextInputLayout-->
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_stock_unit_quantity"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
@@ -79,7 +81,7 @@
                 android:singleLine="true"
                 android:text="@string/default_zero"
                 android:textAlignment="center" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button
@@ -93,7 +95,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_stock_unit_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,9 +111,9 @@
                 android:inputType="numberDecimal"
                 android:singleLine="true"
                 android:text="@string/stock_price_default_zero" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_supplier_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -126,9 +128,9 @@
                 android:layout_marginTop="8dp"
                 android:hint="@string/supplier_name_label"
                 android:singleLine="true" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_supplier_phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -143,9 +145,9 @@
                 android:hint="@string/supplier_phone_label"
                 android:inputType="phone"
                 android:singleLine="true" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_supplier_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -160,6 +162,6 @@
                 android:hint="@string/supplier_email_label"
                 android:inputType="textEmailAddress"
                 android:singleLine="true" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>>
     </RelativeLayout>
 </ScrollView>
